@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>baicuaquochuy</title> 
+</head>
+<body>
+    
+<form action=""> 
+        <table border="1" width="500" cellpadding="10">
+            <tr>
+                <th colspan="2">
+                    <h2>ĐĂNG KÝ</h2> 
+                </th>
+            </tr>
+            <tr>
+                <td>
+                    <label for="name">Họ Và Tên</label>
+                </td>
+                <td>
+                    <input type="text" id="name" name="hoten" placeholder="Họ Và Tên"/>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="name">Username</label>
+                </td>
+                <td>
+                    <input type="text" id="name" name="username" placeholder="Nhập Tên Đăng Nhập"/>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="password">Mật Khẩu</label>
+                </td>
+                <td>
+                    <input type="password" id="password" name="matkhau" placeholder="Nhập Mật Khẩu"/>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="password">Nhập Lại Mật Khẩu</label>
+                </td>
+                <td>
+                    <input type="password" id="password" name="nhaplaimatkhau" placeholder="Nhập Lại Mật Khẩu"/>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="name">Giới Tính</label>
+                </td> 
+                <td>
+                <form>
+                    <input type="radio" id="nam" name="fav_language" value="Nam">
+                    <label for="Nam">Nam</label>
+                    <input type="radio" id="nu" name="fav_language" value="Nữ">
+                    <label for="Nữ">Nữ</label>
+                    <input type="radio" id="Khác" name="fav_language" value="Khác">
+                    <label for="Khác">Khác</label>
+                    </form>
+                </td>
+                <tr>
+                    <td><lable for="name">Ngày sinh</lable></td>
+                    <td>
+                        <select id="ngày sinh" name="ngày sinh">
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3" selected>3</option>
+                            <option value="4">4</option>
+                          </select>
+                          <select id="Tháng sinh" name="Tháng sinh">
+                            <option value="01">01</option>
+                            <option value="02">02</option>
+                            <option value="03" selected>03</option>
+                            <option value="04">04</option>
+                          </select>
+                          <select id="Năm sinh" name="Năm sinh">
+                            <option value="2008">2008</option>
+                            <option value="2009">2009</option>
+                            <option value="2010" selected>2010</option>
+                            <option value="2011">2011</option>
+                          </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td><lable for="name">Địa chỉ</lable></td>
+                    <td>
+                        <form action="/action_page.php  ">
+                            <textarea name="message" rows="10" cols="40"></textarea>
+                          </form>
+                    </td>
+                </tr>
+                <tr>
+                    <td><lable for="name">Avarta</lable></td>
+                    <td>
+                        <button type="button" onclick="alert('')">Choose file</button>
+                        <lable for="name">No file choesen</lable>
+                    </td>
+                </tr>
+                <tr>
+                    <td><lable for="name">Sở thích</lable></td>
+                    <td>
+                        <form action="/action_page.php">
+                            <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
+                            <label for="vehicle1"> xem phim</label>
+                            <input type="checkbox" id="vehicle2" name="vehicle2" value="Car">
+                            <label for="vehicle2"> thể thao</label>
+                            <input type="checkbox" id="vehicle3" name="vehicle3" value="Boat">
+                            <label for="vehicle3"> trò chơi</label>
+                          </form> 
+                    </td>
+                </tr>
+                <tr>
+                    <th colspan="2">
+                        <input type="reset" value="Reset">
+                        <input type="button" value="Ok">
+                    </th>
+                </tr>
+                </tr>
+        </table>
+    </form>
+</body>
+</html>
